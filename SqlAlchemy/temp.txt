@@ -1,0 +1,1 @@
+Table('user', MetaData(), Column('id', Integer(), table=<user>, primary_key=True, nullable=False), Column('name', String(length=20), table=<user>, nullable=False, comment='用户姓名'), Column('phone', String(), table=<user>, comment='用户电话'), Column('weight', Float(), table=<user>, nullable=False, default=ScalarElementColumnDefault(50), comment='用户体重'), schema=None)
